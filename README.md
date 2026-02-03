@@ -11,8 +11,7 @@ Project Goals:
 
 ⦁	Deploy multi‑OS infrastructure automatically
 ⦁	Configure passwordless automation using a dedicated Ansible user
-⦁	Provide a unified Ansible playbook for:
-⦁	Patching RHEL & Ubuntu
+⦁	Provide a unified Ansible playbook for Patching RHEL & Ubuntu
 ⦁	Rolling back patches (OS‑specific logic)
 ⦁	Maintain a clean, modular, production‑ready repo structure
 ⦁	Support GitLab CI/CD for validation and deployment
