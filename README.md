@@ -1,11 +1,22 @@
-# rhel-patching-automation
-Automated patching and rollback workflows with Ansible.
+Published by: Luis Francisco
+Contact: lrfrancisco17@gmail.com
+Social:https://www.linkedin.com/in/luisfrancisco
 
-﻿﻿What we will build: A small lab with a few VMs running RHEL in AWS.
-﻿﻿
-Skills demonstrated:
-﻿﻿Automated patching and rollback workflows with Ansible.
-﻿﻿Compliance enforcement using OpenSCAP or custom Ansible playbooks.
-Documentation of rollback / recovery steps.
-﻿﻿
-Deliverable: A GitHub repo with playbooks, compliance checklists, and a short demo video.
+Infrastructure Automation: Terraform + Ansible (RHEL & Ubuntu)
+This repository provides a complete, end‑to‑end automation stack that deploys:
+
+⦁	Ansible Controller Node
+⦁	RHEL 10 Managed Node
+⦁	Ubuntu Managed Node
+
+All infrastructure is created using Terraform, and all configuration, patching, and rollback operations are handled by Ansible. Each server is bootstrapped with a default ansible user, SSH keys, and passwordless sudo via cloud-init, enabling immediate automation with no manual steps.
+
+Project Goals:
+
+⦁	Deploy multi‑OS infrastructure automatically
+⦁	Configure passwordless automation using a dedicated ansible user
+⦁	Provide a unified Ansible playbook for:
+⦁	Patching RHEL & Ubuntu
+⦁	Rolling back patches (OS‑specific logic)
+⦁	Maintain a clean, modular, production‑ready repo structure
+⦁	Support GitLab CI/CD for validation and deployment
