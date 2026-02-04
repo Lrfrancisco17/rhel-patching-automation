@@ -18,7 +18,7 @@ Project Goals:
 *	Maintain a clean, modular, production‑ready repo structure
 *	Support GitLab CI/CD for validation and deployment
 
-Contact Information:  
+  
 Published by: Luis Francisco  
 Contact: lrfrancisco17@gmail.com  
 Social: https://www.linkedin.com/in/luisfrancisco  
