@@ -10,7 +10,8 @@
 #}
 
 provider "aws" {
-  region = "us-east-1"
+  region  = "us-east-1"
+  profile = "lab"
 }
 
 # Replace this with the actual RHEL 10 AMI for your region
